@@ -1,0 +1,700 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BinglesSalesAndInventory
+</name>
+</assembly>
+<members>
+<member name="T:BinglesSalesAndInventory.DataSet2resibo.tbl_dummyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resibo.tbl_dummyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resibo.tbl_dummyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resibo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resiboTableAdapters.tbl_dummyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.DataSet2resibo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.DataSet2resibo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.DataSet2resibo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.DataSet2resibo)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet2resiboTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_inventoryitemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_purchaseorderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_reservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_salesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_servicesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_supplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_totalsalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_logsactivityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_logsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_inventoryitemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_purchaseorderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_reservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_salesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_servicesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_supplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_totalsalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_logsactivityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_logsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_inventoryitemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_purchaseorderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_reservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_salesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_servicesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_supplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_totalsalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_logsactivityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB.tbl_logsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDB">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_inventoryitemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_purchaseorderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_reservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_salesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_servicesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_supplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_totalsalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_logsactivityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.tbl_logsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.DataSetDB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.DataSetDB,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.DataSetDB,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.DataSetDB)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetDBTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLY.tbl_totalsalesmonthlyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLY.tbl_totalsalesmonthlyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLY.tbl_totalsalesmonthlyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLY">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.tbl_totalsalesmonthlyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.DataSetMONTHLY,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.DataSetMONTHLY,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.DataSetMONTHLY,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.DataSetMONTHLY)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetMONTHLYTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_inventoryitemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_totalsalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_reservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_inventoryitemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_totalsalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_reservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_inventoryitemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_totalsalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport.tbl_reservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReport">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReportTableAdapters.tbl_inventoryitemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReportTableAdapters.tbl_totalsalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReportTableAdapters.tbl_reservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.DataSetReport,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.DataSetReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.DataSetReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.DataSetReport)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetReportTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1.tbl_totalsalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1.tbl_totalsalesmonthlyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1.tbl_totalsalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1.tbl_totalsalesmonthlyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1.tbl_totalsalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1.tbl_totalsalesmonthlyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1TableAdapters.tbl_totalsalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1TableAdapters.tbl_totalsalesmonthlyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYear.tbl_totalsalesyearlyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYear.tbl_totalsalesyearlyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYear.tbl_totalsalesyearlyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYear">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYearTableAdapters.tbl_totalsalesyearlyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.DataSetYear,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.DataSetYear,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.DataSetYear,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.DataSetYear)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.DataSetYearTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources._new">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.accounts">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.accounts2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.add_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.add_button2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.add1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.add21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.ballon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.ballon2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.catering">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.catering2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.itemnew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.itemnew2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.itemNewicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.itemNewicon2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.items">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.items2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.logs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.logs2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.new2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.plus2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.pos">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.pos2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.remove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.remove2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.reports">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.reports2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.resevation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.resevation2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.stocks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.stocks2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.suppliers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BinglesSalesAndInventory.My.Resources.Resources.suppliers2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSet.tbl_purchaseorderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSet.tbl_purchaseorderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSet.tbl_purchaseorderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.tbl_purchaseorderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BinglesSalesAndInventory.ReceiptDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BinglesSalesAndInventory.ReceiptDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BinglesSalesAndInventory.ReceiptDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.UpdateAll(BinglesSalesAndInventory.ReceiptDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BinglesSalesAndInventory.ReceiptDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

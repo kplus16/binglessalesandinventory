@@ -1,0 +1,42 @@
+SELECT i.ItemCode as Code, i.ItemName as Name, i.ItemDescription as Description, c.CategoryName as Category, p.Price as Price, i.ItemStock as Stock,  s.SupplierName as Supplier FROM tbl_InventoryItem i JOIN tbl_Price p ON i.ItemCode=p.ItemCode JOIN tbl_Category c on i.CategoryID=c.CategoryID JOIN tbl_Supplier s on i.SupplierID=s.SupplierID;
+
+
+UPDATE tbl_InventoryItem SET ItemName=@ItemName, ItemDescription=@ItemDescription, CategoryID=@CategoryID, ItemStock=@ItemStock, SupplierID=@SupplierID, ItemPrice=@ItemPrice WHERE ItemCode=@ItemCode 
+
+tbl_InventoryItem
+*ItemCode PK
+*ItemName
+*ItemDescription
+*CategoryID FK
+*ItemStock
+*SupplierID FK
+*ItemPrice
+
+tbl_Price
+*PriceID PK
+*ItemCode FK
+*ItemPrice
+
+tbl_Category
+*CategoryID PK
+*CategoryName
+
+tbl_Sales
+*SalesID PK
+*SalesCustName
+*SalesAmountDue
+*SalesDate
+
+tbl_Transaction
+*TransID PK
+*SalesID FK
+*ItemCode FK
+*Quantity
+
+tbl_Supplier
+*SupplierID PK
+*SupplierName
+*SupplierAddress
+*SupplierContact
+*SupplierStatus
+*ItemCode FK
